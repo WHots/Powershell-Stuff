@@ -1,0 +1,2 @@
+https://download.sysinternals.com/files/ProcessExplorer.zip|ProcessExplorer.zip|Process Explorer
+https://download.sysinternals.com/files/Autoruns.zip|Autoruns.zip|Autoruns
