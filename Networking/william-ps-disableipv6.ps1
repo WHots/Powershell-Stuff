@@ -86,14 +86,14 @@ if(Is-Admin)
 
     $adapter = Read-Host "`r`nEnter adapter name to disable Ipv6 for"
 
-    if(!Disable-Adapter($adapter))
+    if(Disable-Adapter($adapter))
     {
-        Write-Host "`r`nSuccessfully disabled Ipv6."
+        Write-Host "`r`nSomething went wrong!"
         Read-Host
     }
     else
     {
-        Write-Host "`r`nSomething went wrong!"
+        Write-Host "Successfully disabled Ipv6."
         Read-Host
     }
 }
