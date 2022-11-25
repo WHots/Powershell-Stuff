@@ -1,1 +1,1 @@
-please script in same directory as certificate, rename certificate to "cert.crt"
+Place rename your cert file to  "cert.crt"  ... Make sure cert file is in the same directory as this script.
