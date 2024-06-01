@@ -89,3 +89,50 @@ Each item from your desktop will be moved to the appropriate subfolder based on 
 
 - WHots
 
+---
+
+# windowstoscreen
+
+`windowstoscreen.ps1` is a PowerShell script designed to reposition all active application windows to the lower right-hand side of the primary display on a Windows system.
+
+## Features
+
+- Uses the Windows API to reposition windows.
+- Targets all active windows with a visible title.
+- Moves windows to a calculated position on the lower right-hand side of the primary screen.
+
+## Usage
+
+1. **Download the Script:**
+   Save the script as `windowstoscreen.ps1`.
+
+2. **Run the Script:**
+   - Right-click on the script file and select "Run with PowerShell".
+   - Alternatively, open PowerShell, navigate to the directory containing the script, and execute the script by typing:
+     ```powershell
+     .\windowstoscreen.ps1
+     ```
+
+### Requirements
+
+- Windows operating system.
+- PowerShell.
+- Requires `user32.dll` to access the `SetWindowPos` function.
+
+## How It Works
+
+1. The script defines a .NET type to access the `SetWindowPos` function from the `user32.dll` library.
+2. It retrieves the primary screen's working area using the `System.Windows.Forms.Screen` class.
+3. It calculates the position to place the windows on the lower right-hand side of the primary display.
+4. It iterates through all processes with a main window handle and visible title, repositioning each window to the calculated coordinates.
+
+## Example
+
+After running the script, all active windows with a visible title will be moved to the lower right-hand side of your primary screen with a size of 565x500 pixels.
+
+### Author
+
+- WHots
+
+
+
