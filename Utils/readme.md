@@ -1,6 +1,6 @@
 # monitorsysdrv.ps1
 
-CleanDesktop.ps1 is a PowerShell script designed to monitor and handle changes in the file system of the specified target folder. It identifies and logs changes such as file creation, deletion, modification, and renaming.
+monitorsysdrv.ps1 is a PowerShell script designed to monitor and handle changes in the file system of the specified target folder. It identifies and logs changes such as file creation, deletion, modification, and renaming.
 
 ## Features
 
