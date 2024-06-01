@@ -1,4 +1,0 @@
-https://download.sysinternals.com/files/ProcessExplorer.zip|ProcessExplorer.zip|Process Explorer
-https://download.sysinternals.com/files/Autoruns.zip|Autoruns.zip|Autoruns
-https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-1.2.10.6/Greenshot-INSTALLER-1.2.10.6-RELEASE.exe|Greenshot-INSTALLER-1.2.10.6 RELEASE.exe|Greenshot
-https://download.revouninstaller.com/download/RevoUninstaller_Portable.zip|RevoUninstaller_Portable.zip|Revo Uninstaller
